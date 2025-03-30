@@ -147,7 +147,7 @@
 
 <body>
     <!-- Botón de inicio de sesión -->
-    <button class="login-button" onclick="window.location.href='./php/inicio_sesion.php'">Iniciar sesión</button>
+    <button class="login-button" onclick="window.location.href='./inicio_sesion.php'">Iniciar sesión</button>
 
     
     <!-- Sección de presentación de la cafetería -->
