@@ -5,7 +5,7 @@ include('./connect.php');
 
 // Si el usuario ya está logueado, redirige a la página de inicio
 if (isset($_SESSION['username'])) {
-    header("Location: ../inicio.php");  // O la página que desees
+    header("Location: ./inicio.php");  // O la página que desees
     exit();
 }
 
