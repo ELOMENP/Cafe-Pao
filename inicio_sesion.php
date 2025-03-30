@@ -33,7 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
             // Redirigir al usuario a su página correspondiente según su rol
             if ($user['role'] == 'administrador') {
-                header('Location: ./admin/admin.php'); // Administradores
+                header('Location: ./admin.php'); // Administradores
             } else {
                 header('Location: ./inicio.php'); // Usuarios comunes
             }
